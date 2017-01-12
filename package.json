@@ -1,0 +1,22 @@
+{
+    "name": "preact-template",
+    "version": "1.0.0",
+    "devDependencies": {
+        "react-scripts": "0.8.5"
+    },
+    "dependencies": {
+        "preact": "7.1.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "resolve": {
+        "alias": {
+            "react": "preact/aliases",
+            "react-dom": "preact/aliases"
+        }
+    }
+}
