@@ -1,1 +1,1 @@
-preact template based on create-react-app
+Based on create-react-app
